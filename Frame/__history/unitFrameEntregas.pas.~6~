@@ -1,0 +1,34 @@
+unit unitFrameEntregas;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Controls.Presentation, FMX.Layouts, FMX.Effects;
+
+type
+  TFrameEntregas = class(TFrame)
+    rectFundo: TRectangle;
+    Layout1: TLayout;
+    lblNome: TLabel;
+    Layout2: TLayout;
+    lblTelefone: TLabel;
+    lblEndereco: TLabel;
+    rectTipoServico: TRectangle;
+    lblTipoServico: TLabel;
+    lblHora: TLabel;
+    btnImprimir: TImage;
+    ShadowEffect1: TShadowEffect;
+    btnVer: TImage;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.
